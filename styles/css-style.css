@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header and nav styles */
+.nav{
+  background-image: url(/images/banner/banner3.png);
+  background-repeat: no-repeat;
+  height: 950px;
+  text-align: right;
+  background-size: cover;
+  padding: 0 230px;
+}
+
+.nav-head{
+    color: white;
+    font-size: 50px;
+    padding-left:800px ;
+    padding-top: 230px;
+    margin-bottom: 30px;
+}
