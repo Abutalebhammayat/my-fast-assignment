@@ -2,13 +2,14 @@
     margin: 0;
     font-family: 'Lobster', cursive;
     font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 /* header and nav styles */
 .nav{
   background-image: url(/images/banner/banner3.png);
   background-repeat: no-repeat;
-  height: 950px;
+  height: 700px;
   text-align: right;
   background-size: cover;
   padding: 0 230px;
@@ -17,7 +18,116 @@
 .nav-head{
     color: white;
     font-size: 50px;
-    padding-left:800px ;
-    padding-top: 230px;
+    padding-left:500px ;
+    padding-top: 200px;
     margin-bottom: 30px;
+}
+
+.nav-paragap{
+  padding-left:500px ;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.btn{
+  color:rgb(17, 138, 213);
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 12px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* section style */
+ section{
+  margin-top: 250px;
+ 
+ }
+/* section style End */
+
+/* section-1 styles  */
+ .failures{
+  align-items: center;
+ }
+
+ .failures-div{
+  display: flex;
+  justify-content:center;
+  gap: 40px;
+ }
+
+ .failures-h{
+  font-size: 40px;
+  margin-bottom: 20px;
+ }
+
+ .failures-p{
+  font-size: 15px;
+  color: #444343;
+  margin-bottom: 30px;
+ }
+
+ .failures-div2{
+  border: 0px solid gray;
+  margin-right: 200px;
+  padding: 300px 20px 80px 35px;
+ }
+
+ .failures-img1{
+  margin-left: 100px;
+ }
+
+ .failures-div3{
+  display: flex;
+ }
+
+ .failures-p1{
+  color: #444343;
+  margin-bottom: 16px;
+ }
+ /* section-1 styles End */
+
+ /* section-2 style */
+ .plans-h{
+  text-align: center;
+  font-size: 40px;
+ }
+
+ .plans-div{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  text-align: center;
+ }
+
+ .plans-h1{
+  font-size: 30px;
+  color:  #151414;
+  margin-top: 20px;
+ }
+
+ .plans-p{
+  font-size: 15px;
+  color:  #737272;
+  margin-top: 10px;
+ }
+ /* section-2 style End */
+
+ /* section-3 style */
+.mindset-div{
+  background-image:  url(/images/gradient1.png), url(/images/watch.png);
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 1130px;
+  margin-left: 140px;
+  padding: 80px 10000px 0 80px;
+
+}
+
+.mindset-h{
+  font-size: 40px;
+  color: white;
+  padding-right: 617px;
+  margin-bottom: 30px;
 }
